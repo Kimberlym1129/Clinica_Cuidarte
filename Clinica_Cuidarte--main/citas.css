@@ -1,0 +1,168 @@
+@import url(../css/font.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0; /* Color de fondo más suave */
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    background-image: url(../images/fondo_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px; /* Espacio alrededor del contenido */
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+}
+
+header .encabezado {
+    max-width: 1200px;
+    width: 100%;
+    height: 400px;
+    background-image: url(../Clinica_Cuidarte--main/images/banner_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 1;
+}
+
+header .logo img {
+    width: 150px;
+    padding: 25px 12px;
+    border-radius: 55%;
+    position: absolute;
+    left: 22px;
+    top: 0px;
+}
+
+header .titulo h1 {
+    color: rgba(20, 151, 118, 0.7);
+    padding: 10px 50px;
+    position: absolute;
+    left: 118px;
+    top: 60px;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.473);
+}
+
+nav {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 3px 2px 1px 2px rgba(20, 151, 118, 0.479);
+    width: 125px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 70px;
+}
+
+ul{
+    text-align: center;
+    color: black;
+}
+
+nav a:hover {
+    background-color: whitesmoke;
+    color: rgba(20, 151, 118, 0.479);
+    transition-delay: 80ms;
+}
+
+main {
+    min-height: 70vh;
+    padding: 450px 60px 40px 60px; /* Ajusta según el tamaño del header */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #004d00; /* Un color verde más oscuro para el título */
+}
+
+.appointment-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Color de texto más oscuro */
+}
+
+.appointment-form input,
+.appointment-form select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+.appointment-form input:focus,
+.appointment-form select:focus {
+    border-color: rgba(20, 151, 118, 0.7);
+}
+
+.appointment-form button {
+    background-color: rgba(20, 151, 118, 0.7);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.appointment-form button:hover {
+    background-color: rgba(20, 151, 118, 0.9);
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer img {
+    width: 2.5rem;
+}
+
+main{
+    width: 1200px;
+    min-height: 100vh;
+    padding: 600px 60px 60px;
+}
